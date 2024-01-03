@@ -15,6 +15,7 @@
         id="amount"
         v-model="amount"
         placeholder="Enter amount..."
+        step="0.01"
       />
     </div>
     <button class="btn">Add transaction</button>
